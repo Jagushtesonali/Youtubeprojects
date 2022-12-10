@@ -1,0 +1,67 @@
+.PostContainer{
+margin:20px; 
+}
+.Postwrapper{
+    padding: 10px;
+    -webkit-border-radius: 25px;
+    border-radius: 10px;
+    background: #ffffff;
+    -webkit-box-shadow: 10px 10px 49px #d4d4d4, -10px -10px 30px #ffffff;
+    box-shadow: 10px 10px 49px #d4d4d4, -10px -10px 30px #ffffff;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.images{
+    display: flex;
+    align-items: center;
+}
+.images .ProfileImage{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+   box-shadow: 5px 5px 5px rgb(244, 244, 245);
+   margin-right: 10px;
+}
+.PostHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.PostHead h4{
+    margin-right: 10px;
+}
+.PostImage{
+    width: 100%;
+    height: 350px;
+}
+.PostImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.PostBottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.LikeIcons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.likes span{
+    margin-right: 10px;
+    font-weight: bold;
+}
+.Comments  span{
+margin-right:10px ;
+font-weight: bold;
+
+}
+.like,.heart{
+    cursor: pointer;
+}

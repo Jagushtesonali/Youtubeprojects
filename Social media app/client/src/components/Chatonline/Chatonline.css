@@ -1,0 +1,19 @@
+.chatonline{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.dotbox{
+    display: flex;
+    position: relative;
+ 
+}
+.dot{
+position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(8, 189, 8);
+    right: 5px;
+    top: 2px;
+}

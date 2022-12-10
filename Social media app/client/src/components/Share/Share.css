@@ -1,0 +1,67 @@
+.ShareContainer{
+    margin: 20px;
+   
+}
+.ShareWrapper{
+    padding: 10px;
+    -webkit-border-radius: 25px;
+    border-radius: 10px;
+    background: #ffffff;
+    -webkit-box-shadow: 10px 10px 49px #e8e8e8, -10px -10px 49px #ffffff;
+    box-shadow: 10px 10px 49px #e8e8e8, -10px -10px 49px #ffffff;
+    background-color: #ffffff;
+}
+.ImageInput{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.ImageInput img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+   box-shadow: 5px 5px 5px rgb(244, 244, 245);
+   margin-right: 20px;
+}
+.ImageInput input{
+
+    height: 30px;
+    border: none;
+    outline: none;
+}
+.ImageInput input::placeholder{
+
+    color: #cecccc;
+  
+}
+hr{
+    margin-bottom: 20px;
+  
+}
+.TagItems{
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-size: 15px;
+
+}
+.icons{
+    margin-right: 5px;
+    
+    
+}
+.icons span{
+    margin-left: 10px;
+}
+.ShareButton{
+
+    width: 60px;
+    height: 25px;
+    margin-left: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
